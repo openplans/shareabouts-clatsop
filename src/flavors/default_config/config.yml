@@ -124,10 +124,10 @@ activity:
 
 place:
   adding_supported: true
-  add_button_label: _(Share an idea)
+  add_button_label: _(Identify an issue)
   action_text: _(identified)
-  title: _(Tell us more...)
-  action_text: _(added)
+  title: _(Describe the issue)
+  action_text: _(identified)
   anonymous_name: _(Someone)
   submit_button_label: _(Submit)
   items:
