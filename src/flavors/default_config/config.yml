@@ -170,6 +170,30 @@ place:
         - key: size
           value: 30
 
+survey:
+  submission_type: comments
+
+  # Response config
+  show_responses: true
+  response_name: _(comment)
+  response_plural_name: _(comments)
+  action_text: _(commented on)
+  anonymous_name: _(Someone)
+
+  # Survey form config
+  title: _(Leave a Comment)
+  form_link_text: _(Leave a Comment)
+  submit_btn_text: _(Comment)
+  items:
+    - prompt: _(Comment)
+      label: _(Comment)
+      type: textarea
+      name: comment
+    - prompt: _(Your Name)
+      type: text
+      name: submitter_name
+
+
 support:
   submission_type: support
   submit_btn_text: _(Support This!)
